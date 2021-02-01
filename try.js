@@ -39,8 +39,8 @@ function cfgHandle(userCfg) {
     tryText: `try`, // try button text
     trySwaggerInApi: true, // Is the swagger debugging window displayed under the api? true: yes, false: displayed after the request, when the request is relatively large, you may not see the debugging window
     redocVersion,
-    authBtnPosSelector: `h1:eq(0)`,
-    authBtnText: `AUTHORIZE`,
+    authBtnPosSelector: `h1:eq(0)`, // jQuery selector of an element after that Authorize button will be added. header by default.
+    authBtnText: `AUTHORIZE`, // Authorize button text
 
     ...userCfg,
     swaggerOptions: {

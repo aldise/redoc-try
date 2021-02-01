@@ -33,6 +33,8 @@ initTry({
   // trySwaggerInApi: true, // Whether to display swagger debugging window under api?
   // redocOptions: {enableConsole: true}, // Or the format is an array: `[specOrSpecUrl?, options?, element?, callback?]`
   // swaggerOptions: {dom_id: `#swagger-ui`},
+  // authBtnPosSelector: `h1:eq(0)`, // jQuery selector of an element after that Authorize button will be added. header by default. 
+  // authBtnText: `AUTHORIZE` // Authorize button text
 })
 ```
 
